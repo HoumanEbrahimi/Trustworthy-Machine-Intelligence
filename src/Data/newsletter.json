@@ -1,0 +1,24 @@
+[
+    {
+      "name": "01: Welcome to EPAI!",
+      "description": ""
+    },
+    {
+      "name": "02: EPAI Events and Leadership Applications",
+      "description": "Hateful posts have become a regular phenomena, so moderation is needed, however at such high volumes it is hard to contain. In this project, you will work with a team over the fall and winter semester to design a solution to containing harmful posts. Do so by creating a sentiment analysis model to highlight stigmatic posts to users before they post the text."
+    },
+    {
+      "name": "03: EPAI Events and Leadership Applications",
+      "description": "Word embeddings are used widely in Natural Language Processing (NLP) tasks. They have many applications, such as resume filtering or document ranking in word search. Unfortunately, word embedding models have been shown to amplify biases found in the datasets they were trained on. This exacerbates the negative stereotypes found in society, which is a direct violation of the principles of responsible technology and ethical AI. There is a need to reduce and/or eliminate bias in word embeddings so that algorithms can better serve society and align with the public interest. Over the course of the fall and winter semester, collaborate with a team to design a debiased word embedding model and demonstrate your work in a website or through a video."
+    },
+    {
+      "name": "04: EPAI Events and Leadership Applications",
+      "description": "Training high quality machine learning models requires large, representative datasets, which may be crowdsourced and contain sensitive information. Even in instances when sensitive information is not explicitly used to train a model, patterns can be extracted and re-identify personal identification about an individual. Models should be designed to protect private information in these datasets. In this project, different algorithmic techniques for learning will be implemented on medical image datasets and an analysis of privacy costs within the framework of differential privacy will be completed to evaluate the merits and room for improvement of different techniques. This project deliverable will be a research paper summarizing the results found throughout the fall and winter semester."
+    },
+    {
+        "name": "05: EPAI Events and Leadership Applications",
+        "description": "We meet bi-weekly during the semester to discuss academic papers in the field of Ethical AI. Participation is open to all and guests are always welcome! Meetings will be held in the EPAI discord voice channel paper-reading-meeting-room"
+      
+    }
+    
+  ]

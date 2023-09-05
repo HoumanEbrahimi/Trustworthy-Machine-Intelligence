@@ -1,0 +1,42 @@
+
+.font{
+    color:rgba(3, 114, 114, 0.585);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px; 
+    align-items: center;
+    text-align: center;
+    
+}
+
+.font-custom{
+    color:black;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 1em;
+    font-size:26px;
+    text-align:left auto;
+    font-weight: normal;    
+    
+}
+
+.bold{
+    color:black;
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+    font-size:25px;
+
+}
+
+.box-container{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    max-width: 1200px;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin: 20px auto;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+/* Styles.css */

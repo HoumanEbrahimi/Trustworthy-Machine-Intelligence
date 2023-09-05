@@ -1,0 +1,47 @@
+#Navbar {
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+
+.navLink {
+    color: white;
+    font-style:oblique;
+    font-size:large;
+    text-decoration: inherit;
+    
+}
+
+.navLink:hover {
+    color: rgb(255, 255, 255);
+}
+
+#navBrand {
+    padding: left 37px;
+    padding-right:35px;
+    font-style:oblique;
+    
+    
+}
+
+.navbar-custom {
+    background-color: rgb(5, 179, 179); 
+    color: white; 
+  }
+
+.custom-radius{
+
+    border-radius: 50px; 
+
+}
+
+/* Navbar.css */
+.navbar-custom .navbar-nav .nav-item {
+    padding-right: 8em; 
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    font-size: 25px; 
+  }
+

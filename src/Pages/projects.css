@@ -1,0 +1,197 @@
+
+/* This pen */
+body {
+	font-family: "Inika ", cursive;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: initial;
+}
+
+.font-main-projects{
+  color:black;
+  font-family: "Inika", Times, serif;
+  font-size: 70px; 
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  padding:30px;
+  margin-bottom: -20px;
+  
+}
+
+.dark {
+	background: #110f16;
+}
+
+.container{
+  max-width: 1800px; /* Adjust the maximum width as needed */
+  /* Other existing styles */
+}
+
+.postcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  background-color: #18151f; /* Background color for dark mode */
+  padding: 20px;
+}
+
+.row{
+  align-items: center;
+  padding: 30px;
+  margin-left: 34rem;
+}
+
+.postcard__preview-txt {
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 1em;
+  font-size:25px;
+  font-weight: normal;
+  padding: 40px; /* Add padding to the text */
+
+}
+
+a, a:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+
+.postcard__title {
+  margin-top: 1em;
+  font-size: 2.5rem;
+  font-family: "Inika";
+}
+
+.postcard__img {
+  max-height: 300px;
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 10px; /* Add some space between image and text */
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto; /* Center the button */
+  margin-top: 10px; /* Add space between text and button */
+}
+
+/* Cards */
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+
+	&.dark {
+		background-color: #18151f;
+	}
+	&.light {
+		background-color: #e1e5ea;
+	}
+	
+
+	h1,	.h1 {
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	
+  .postcard__title {
+    font-size: 1.75rem;
+  }
+
+
+  .postcard__img {
+    max-height: 150px;
+    width: 90%;
+    position: relative;
+  }
+
+  .postcard__img_link {
+    display: contents;
+  }
+
+  .postcard__bar {
+    width: 50px;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #424242;
+    transition: width 0.2s ease;
+  }
+  .btn-primary {
+    display: block;
+    margin: 0 auto; /* Center the button */
+    margin-top: 10px; /* Add space between text and button */
+  }
+}
+
+
+  .postcard {
+    flex-wrap: inherit;
+
+
+    &:nth-child(2n+1) {
+      flex-direction: row;
+    }
+
+    &:nth-child(2n+0) {
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(2n+1) .postcard__text::before {
+      left: -12px !important;
+      transform: rotate(4deg);
+    }
+
+    &:nth-child(2n+0) .postcard__text::before {
+      right: -12px !important;
+      transform: rotate(-4deg);
+    }
+  }
+
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+
+}
+/* Center the image cards in the row */
+.row.justify-content-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  padding: 20px;
+}
+
+
+/* Apply styles to the images */
+.image-card {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+/* Apply styles to the image text */
+.image-text {
+  color: white !important;
+  font-size: 40px;
+  text-align: center;
+}
