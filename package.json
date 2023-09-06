@@ -1,6 +1,6 @@
 {
   "name": "tmi-website",
-  "homepage": "https://houmanebrahimi.github.io/Trustworthy-Machine-Intelligence/",
+  "homepage": "https://HoumanEbrahimi.github.io/Trustworthy-Machine-Intelligence/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,10 +26,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "s": "^1.0.0"
   }
 }
