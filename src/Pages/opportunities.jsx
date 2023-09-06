@@ -54,7 +54,7 @@ const Opp = () =>{
                  
             </div>
             <div class="card" style={{width: "45rem", height:"40rem",backgroundColor:"#18151f"}}>
-                <img class="card-img-top" src="https://ethical-principles-in-ai.github.io/static/media/resource_intro.cc528743c8ff2758bb5b.PNG" alt="placeholder" style={{width:"717.6px",height:"403.63px"}}/>
+                <img class="card-img-top" src="https://github.com/HoumanEbrahimi/Lol/blob/main/resource_intro.cc528743c8ff2758bb5b.png?raw=true" alt="placeholder" style={{width:"717.6px",height:"403.63px"}}/>
                 <div class="card-body">
                     <br></br>
                     <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"white"}}>Introductory Level</h5>
