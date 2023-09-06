@@ -1,5 +1,6 @@
 {
   "name": "tmi-website",
+  "homepage": "https://houmanebrahimi.github.io/Trustworthy-Machine-Intelligence/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
