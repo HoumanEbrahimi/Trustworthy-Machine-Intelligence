@@ -7,7 +7,9 @@
     background-color:rgba(0,0,0,0.2);
     display:flex;
     justify-content:center;
-    align-items:center
+    align-items:center;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .popup-inner{

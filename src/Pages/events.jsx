@@ -6,7 +6,6 @@ import events2 from '../Data/newevents.json';
 
 
 const Events = () =>{
-    const [flipStates, setFlipStates] = useState([1, 2, 3,4]);
 
     return(
         <div >
@@ -25,54 +24,28 @@ Stay tuned to our website and other social media accounts for updates!</h2>
             <div >
             <br></br><br></br>
             <hr style={{color:"black"}} />
-            <h1 className="font3"  > Upcoming Projects </h1>
+            <h1 className="font3"  > Projects </h1>
             <hr style={{color:"black"}} />
 
             <br></br><br></br>
             <div className="card-container ">
             {events2.map((event, index) => (
 
-            <div class="card " style={{width: "45rem", height:"40rem",backgroundColor:"#18151f"}}>
-                <img class="card-img-top" src={event.imagePath} alt={event.name} style={{width:"717.6px",height:"403.63px"}}/>
-                <div class="card-body">
+            <div class="card " style={{width: "45rem", height:"40rem"}}>
+                <img class="card-img-top" src={event.imagePath} alt={event.name} style={{width:"717.6px",height:"403.63px",objectFit:"cover"}}/>
+                <div class="card-body card-footer">
                 <br></br>
 
-                    <h3 class="card-title"  style={{fontFamily:"50px",color:"white"}}>{event.name}</h3>
+                    <h3 class="card-title"  style={{fontFamily:"50px",color:"black"}}>{event.name}</h3>
                     <br></br>
-                    <br></br>
-
-                     <a href={event.website} class="btn btn-primary" target="_blank" style={{fontFamily:"Times New Roman",backgroundColor:"#2596be"}}>Learn More</a>
+                     <a href={event.website} type="button" class="btn btn-primary btn-sm float-right" style={{fontFamily:"Times New Roman",backgroundColor:"#2596be"}}>Learn More</a>
                  </div>
                  
             </div>
             
             ))}
             </div>
-            <br></br><br></br>
-            <hr style={{color:"black"}} />
-            <h1 className="font3"> Past Projects </h1>
-            <hr style={{color:"black"}} />
-
-            <br></br><br></br>
-
-            <div className="card-container">
-            {events.map((event, index) => (
-
-            <div class="card" style={{width: "45rem", height:"40rem",backgroundColor:"#18151f"}}>
-                <img class="card-img-top" src={event.imagePath} alt={event.name} style={{width:"717.6px",height:"403.63px"}}/>
-                <div class="card-body">
-                <br></br>
-
-                    <h3 class="card-title" style={{fontFamily:"40px",color:"white"}} >{event.name}</h3>
-                    <br></br>                    <br></br>
-
-                    <a href={event.website} class="btn btn-primary" target="_blank" style={{fontFamily:"Times New Roman",backgroundColor:"#2596be"}}>Learn More</a>
-                 </div>
-                 
-            </div>
             
-            ))}
-            </div>
             </div>
 
 

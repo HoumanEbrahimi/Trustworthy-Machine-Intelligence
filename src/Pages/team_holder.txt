@@ -3,7 +3,7 @@ import './team.css';
 import Footer from './Layout.js';
 import users from '../Data/users.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEarth,faLin} from '@fortawesome/free-solid-svg-icons';
+import { faEarth,faCircleInfo,faLinkedIn} from '@fortawesome/free-solid-svg-icons';
 import Popup from './popup.jsx';
 
 const Team = () => {
@@ -31,20 +31,33 @@ const Team = () => {
             <div className={`flip-card ${flipStates[index] ? 'flipped' : ''}`} key={index}>
               <div className="cards flip-card-inner" style={{width:"33rem", height:"43rem"}} >
                 <div className=" card flip-card-front " style={{backgroundColor:"#18151f"}}>
-                  <img className="card-img" style={{objectFit:"cover"}} src={users[index].imagePath} 
-                  width="70"
-                  height="470" 
+                  <img className="card-img" style={{borderRadius:"60%",objectFit:"cover"}} src={users[index].imagePath} 
+                  width="100"
+                  height="500" 
                   alt=""/>
                   <div className="card-body">
                   <h5 className="card-title" style={{color:"white",fontFamily:"Times New Roman",fontSize:"25px"}}>{users[index].name}</h5>
                   <p className="card-text" style={{fontFamily:"Times New Roman", fontSize:"20px",color:"orange"}} >{users[index].position}</p>
                   <FontAwesomeIcon  icon={faEarth} size="3x"  color='#2596be'/>
-                  <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />                 
-                   </div>
-                  {/* <button class="btn btn-primary inline-buttons" onClick={() => toggsleCard(index)}>More Info</button> */}
+
+                  </div>
+                  <div onClick={() => toggleCard(index)}>
+                  <FontAwesomeIcon  icon={faCircleInfo} size="2x"  transform="up-10 right-85" color='#2596be' />
+
+                  </div>
+
+                  {/* <button class="btn btn-primary inline-buttons" onClick={() => toggleCard(index)}>More Info</button> */}
 
                 </div>
+                <div className="flip-card-back" style={{width:"33rem", height:"43rem",backgroundColor:"#18151f"}}>
+                  <p className="font-inline-main2" style={{color:"white"}}>{users[index].bio}</p>
+                  <div onClick={() => toggleCard(index)}>
+                  <FontAwesomeIcon  icon={faCircleInfo} size="2x"  transform="left-17 down-150" color='#2596be' />
 
+                  </div>
+                  {/* <button  class="btn btn-primary inline-buttons" onClick={() => toggleCard(index)}>Back</button> */}
+
+                </div>
               </div>
 
             </div>
@@ -52,9 +65,9 @@ const Team = () => {
         </div>
 
       </div>
-      <button class="mt-auto btn btn-primary" onClick={()=>setButtonPopup(true)} style={{backgroundColor:'#2596be',fontFamily:"Times New Roman"}}>Previous Board Members</button>
+      <button class="mt-auto btn btn-primary" onClick={()=>setButtonPopup(true)} style={{backgroundColor:'#2596be'}}>Previous Board Members</button>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <h3 style={{color:"black",fontFamily:"Times New Roman"}}>2021/2022 Board members</h3>
+        <h3 style={{color:"black"}}>2021/2022 Board members</h3>
         <br></br>
         <p style={{color:"black"}}>President: Jasmine Zhang</p>
         <p style={{color:"black"}}>VP Administration: Emily Traynor</p>

@@ -7,33 +7,59 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="alignment"> 
-      <h1 className="footer-align" style={{fontFamily:"Tahoma",fontSize:"30px"}}>Contact Us</h1>
-      <div className="footer-content">
-        <a href="https://www.instagram.com/uoft_epai/" className="insta-link">
-          <FontAwesomeIcon icon={faInstagram} size="3x" transform="left-36" color='orange'/>
-        </a>
-        &nbsp;&nbsp; &nbsp;&nbsp; 
+<footer class="footer-distributed">
 
-        <a href="https://discord.com/channels/1110690752658415668/1110694536579121273" className="insta-link">
-          <FontAwesomeIcon  icon={faDiscord} size="3x" transform="left-26" color='orange'/>
-        </a>
-        &nbsp;&nbsp; &nbsp;&nbsp; 
-        <a href="https://discord.com/channels/1110690752658415668/1110694536579121273" className="insta-link">
-          <FontAwesomeIcon icon={faEnvelope} size="3x" transform="left-16" color='orange'/>
-        </a>
+<div class="footer-left">
 
-      </div>
-      <img
+  <h3>      <img
             src="https://media.discordapp.net/attachments/1110694536579121273/1138870000296394783/TMI.png?width=574&height=574"
             alt=""
-            width="65"
-            height="65"
-          />
-      </div>
+            width="100"
+            height="100"
+          /></h3>
 
-    </footer>
+  <p class="footer-links">
+    <a href="#" class="link-1">Home</a>
+    
+    
+    <a href="#">Team</a>
+    
+    
+    <a href="#">Contact</a>
+  </p>
+
+</div>
+
+<div class="footer-center">
+
+
+    <p> Join our mailing list</p>
+
+  <div>
+  <FontAwesomeIcon icon={faEnvelope} size="3x" transform="left-10 down-3" color='orange'/>
+          <p><a href="utoronto.tmi@gmail.com">utoronto.tmi@gmail.com</a></p>
+        </div>
+
+
+</div>
+
+<div class="footer-right">
+
+
+  <div class="footer-icons">
+    <p> Join our team</p>
+    <a href="#">  <FontAwesomeIcon icon={faDiscord} size="2x" transform="left-10 down-3" color='orange'/>
+</a>
+    <a href="#">  <FontAwesomeIcon icon={faInstagram} size="2x" transform="left-10 down-3" color='orange'/>
+</a>
+    <a href="#">  <FontAwesomeIcon icon={faEnvelope} size="2x" transform="left-10 down-3" color='orange'/>
+</a>
+
+  </div>
+
+</div>
+
+</footer>
   );
 };
 
