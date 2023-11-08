@@ -43,11 +43,6 @@
     padding:30px;
 }
 
-.btn{
-    margin-top: 60px;
-    font-size: 20px;
-    width:445px;
-}
 
 .card-container {
     display: flex;
@@ -57,6 +52,8 @@
     max-width: 1600px; /* Adjust the maximum width as needed */
     padding: 20px;
     align-items: center;
+    display:flex;
+    size:"auto"
     
   }
 
@@ -83,4 +80,8 @@
     max-width: 1000px;
     margin: auto ;
 
+}
+
+has-text-right{
+    text-align: right
 }
