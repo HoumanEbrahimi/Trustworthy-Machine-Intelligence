@@ -21,11 +21,11 @@ const News = () =>{
              know about? If you would like to submit a topic for discussion or write for the newsletter, please 
              message #newsletter on Discord!</h3>
 		<br/><br/><br/>
-        <article className="postcard dark">
+        <article className="postcard dark" style={{background:"white"}}>
 
 <div class="card-body"> 
 <h1 className="postcard__title " style={{color:"orange"}}>05: TMI Events and Leadership Applications</h1>
-    <div className="postcard__preview-txt">
+    <div className="postcard__preview-txt" style={{color:"black"}}>
         <ul >
             <li>
             ChatGPT Seminar
@@ -50,11 +50,11 @@ const News = () =>{
 </div>
 
 </article>
-<article className="postcard dark">
+<article className="postcard dark" style={{background:"white"}}>
 
 <div class="card-body"> 
 <h1 className="postcard__title " style={{color:"orange"}}>04: TMI Events and Leadership Applications</h1>
-    <div className="postcard__preview-txt">
+    <div className="postcard__preview-txt" style={{color:"black"}}>
         <ul >
             <li>
             EPAI Speaker Event: Professor Ahmed on Ethical Pluralism and Decolonizing AI
@@ -76,11 +76,11 @@ const News = () =>{
 </div>
 
 </article>
-<article className="postcard dark">
+<article className="postcard dark" style={{background:"white"}}>
 
 <div class="card-body"> 
 <h1 className="postcard__title " style={{color:"orange"}}>03: TMI Events and Leadership Applications</h1>
-    <div className="postcard__preview-txt">
+    <div className="postcard__preview-txt" style={{color:"black"}}>
         <ul >
             <li>
             Volunteer for the Hart House Show Debate
@@ -103,11 +103,11 @@ const News = () =>{
 
 </article>
 
-<article className="postcard dark">
+<article className="postcard dark" style={{background:"white"}}>
 
 <div class="card-body"> 
 <h1 className="postcard__title " style={{color:"orange"}}>02: TMI Events and Leadership Applications</h1>
-    <div className="postcard__preview-txt">
+    <div className="postcard__preview-txt" style={{color:"black"}}>
         <ul >
             <li>
             [Workshop] Reading Race: AI Recognizes Patient's Racial Identity in Medical Images
@@ -129,12 +129,12 @@ const News = () =>{
 </div>
 
 </article>
-		<article className="postcard dark">
+		<article className="postcard dark" style={{background:"white"}}>
 
 			<div class="card-body"> 
 				
 				<h1 className="postcard__title " style={{color:"orange"}}>01: Welcome to TMI!</h1>
-				<div className="postcard__preview-txt">
+				<div className="postcard__preview-txt" style={{color:"black"}}>
                     <ul >
                         <li>
                            Upcoming events

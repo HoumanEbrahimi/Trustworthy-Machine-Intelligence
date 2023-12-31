@@ -2,6 +2,11 @@
     margin-top: -50px;
 }
 
+.article{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
 .change{
     background-color:antiquewhite; 
 }
