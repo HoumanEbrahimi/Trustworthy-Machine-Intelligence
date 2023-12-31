@@ -24,7 +24,9 @@ body {
 }
 
 .container{
-  max-width: 1800px; /* Adjust the maximum width as needed */
+  width: 100%;
+  height: auto;
+  /*max-width: 1800px; /* Adjust the maximum width as needed */
   /* Other existing styles */
 }
 

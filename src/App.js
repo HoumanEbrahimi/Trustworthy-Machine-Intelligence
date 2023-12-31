@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.js';
 import './App.css';
 import "./components/Navbar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 import Main from './Pages/mainPage.jsx';
@@ -21,70 +21,47 @@ import Newsletter from './Pages/newsletter.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
-        <Link className="navbar-brand" to="/" style={{fontSize:"30px",fontFamily:"Tahoma", marginRight:"90px"}}>
-        &nbsp;&nbsp;
-          <img
-            src="https://media.discordapp.net/attachments/1110694536579121273/1138870000296394783/TMI.png?width=574&height=574"
-            alt=""
-            width="65"
-            height="65"
-          />
-          &nbsp;&nbsp;
-          UofT TMI
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/" style={{fontSize:"30px",fontFamily:"Tahoma" , color:"white" , marginRight:"90px"}}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Home
-              </Link>
-            </li>
-            <li className="nav-item" >
-              <Link className="nav-link" to="/team" style={{fontSize:"30px",fontFamily:"Tahoma" ,  color:"white" , marginRight:"90px"}}>
-                Team
-              </Link>
-            </li>
-            {/* Other navigation links */}
-            <li className="nav-item">
-              <Link className="nav-link" to="/events" style={{fontSize:"30px",fontFamily:"Tahoma" , color:"white" , marginRight:"90px"}}>
-                Events
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/projects" style={{fontSize:"30px",fontFamily:"Tahoma" , color:"white" , marginRight:"90px"}}>
-                Projects
-              </Link>
-            </li>            <li className="nav-item">
-              <Link className="nav-link" to="/newsletter" style={{fontSize:"30px",fontFamily:"Tahoma" , color:"white" , marginRight:"90px"}}>
-                Newsletter
-              </Link>
-            </li>            <li className="nav-item">
-              <Link className="nav-link" to="/opportunities" style={{fontSize:"30px",fontFamily:"Tahoma" , color:"white" , marginRight:"90px"}}>
-              Opportunities
-              </Link>
-            </li>            <li className="nav-item">
-              <Link className="nav-link" to="/contact" style={{fontSize:"30px",fontFamily:"Tahoma" , color:"white" , marginRight:"90px"}}>
-                Contact us
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      {/* Define your routes using the <Routes> component */}
+    <div className="App"> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+&nbsp;&nbsp;
+  <img
+    src="https://media.discordapp.net/attachments/1110694536579121273/1138870000296394783/TMI.png?width=574&height=574"
+    alt=""
+    width="65"
+    height="65"
+  />
+    &nbsp;&nbsp;
+  UofT TMI
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/team" >Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/events" >Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/projects" >Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/newsletter"  >Newsletter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/opportunities" >Opportunities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+      
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/team" element={<Team />} />
@@ -94,9 +71,12 @@ function App() {
         <Route path='/opportunities' element={<Opportunities/>} />
         <Route path='/newsletter' element={<Newsletter />} />
 
-        {/* Other routes */}
       </Routes>
-    </div>
+    </div> 
+
+    //<BrowserRouter>
+
+ // </BrowserRouter>
   );
 }
 

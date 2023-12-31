@@ -19,25 +19,26 @@ const Footer = () => {
           /></h3>
 
   <p class="footer-links">
-    <a href="#" class="link-1">Home</a>
+    <a href="/" class="link-1">Home</a>
     
     
-    <a href="#">Team</a>
+    <a href="/team">Team</a>
     
     
-    <a href="#">Contact</a>
+    <a href="/contact">Contact</a>
   </p>
 
 </div>
 
 <div class="footer-center">
 
+<div class="footer-icons">
+    <strong> Join our mailing list</strong>
 
-    <p> Join our mailing list</p>
-
+</div>
   <div>
-  <FontAwesomeIcon icon={faEnvelope} size="3x" transform="left-10 down-3" color='orange'/>
-          <p><a href="utoronto.tmi@gmail.com">utoronto.tmi@gmail.com</a></p>
+  <FontAwesomeIcon icon={faEnvelope} size="2x" transform="left-15 down-5" color='orange' />
+          <p><a style={{marginRight:"30px", marginBottom:"30px"}} href="utoronto.tmi@gmail.com">utoronto.tmi@gmail.com</a></p>
         </div>
 
 
@@ -48,12 +49,11 @@ const Footer = () => {
 
   <div class="footer-icons">
     <p> Join our team</p>
-    <a href="#">  <FontAwesomeIcon icon={faDiscord} size="2x" transform="left-10 down-3" color='orange'/>
+    <a href="#">  <FontAwesomeIcon icon={faDiscord} size="2x" transform="left-10 down-3 right-8" color='orange'/>
 </a>
-    <a href="#">  <FontAwesomeIcon icon={faInstagram} size="2x" transform="left-10 down-3" color='orange'/>
+    <a href="#">  <FontAwesomeIcon icon={faInstagram} size="2x" transform="left-10 down-3 right-13" color='orange'/>
 </a>
-    <a href="#">  <FontAwesomeIcon icon={faEnvelope} size="2x" transform="left-10 down-3" color='orange'/>
-</a>
+
 
   </div>
 
