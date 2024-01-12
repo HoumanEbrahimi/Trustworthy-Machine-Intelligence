@@ -7,7 +7,7 @@ const Main = () =>{
             <br></br>
         <h1  style={{color:"#2596be",fontSize:"55px",fontFamily:"Times New Roman"}}> UofT Trustworthy Machine Intelligence Team</h1>
         <br></br>
-        <img 
+        <img className="responsive-image"
             src="https://media.discordapp.net/attachments/1110694099297763338/1126277657252860004/tmi_logo.png?width=1440&height=360"
             alt=""
             width="1400" 
