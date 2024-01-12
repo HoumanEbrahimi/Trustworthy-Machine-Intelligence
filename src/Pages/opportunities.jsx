@@ -90,7 +90,7 @@ const Opp = () =>{
                              </p>
 
     
-                            <a href="#" class="mt-auto btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>Learn More</a>
+                            <a href="https://srinstitute.utoronto.ca/" class="mt-auto btn btn-primary" target="_blank" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>Learn More</a>
                         </div>
                     </div>
                 </div>
