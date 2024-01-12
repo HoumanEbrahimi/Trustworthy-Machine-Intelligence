@@ -12,10 +12,11 @@
 }
 .font{
     color:rgb(30, 48, 80);
-    font-family: "Inika", Times, serif;
-    font-size: 40px; 
-    align-items: center;
-    text-align: left;
+    font-family: "Tahoma", Times, serif;
+    font-size: 30px; 
+    align-items: top;
+    display: flex;
+    margin-bottom: auto;
     
 }
 
@@ -23,6 +24,7 @@
     display: flex;
     height: 120vh;
     overflow: hidden; 
+    align-items: center;
 
 }
 .split-screen{
@@ -88,3 +90,75 @@
 .move-right3{
     margin-right:140px;
 }
+
+.contact {
+    min-height: 100vh;
+    
+  }
+  
+  .backdrop {
+    background-color: antiquewhite;
+    padding: 3em;
+  }
+
+.label{
+    color:"black";
+    text-align: left;
+}
+
+@media(max-width: 768px) {
+    .your-icon-class {
+
+    }
+}
+
+/* Add this at the end of your existing CSS */
+
+@media (max-width: 1200px) {
+    .contain {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-half,
+    .right-half {
+      width: 100%;
+      padding: 50px;
+    }
+  
+    .move-right,
+    .move-right2,
+    .move-right3 {
+      margin-right: 0;
+    }
+  
+    .icon-inline,
+    .icon-inline2,
+    .icon-inline3 {
+      padding-top: 1em;
+      margin-right: 0;
+    }
+  
+    .font {
+      margin-top: 20px;
+    }
+  
+    .move-top {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .right-half,
+    .left-half {
+      padding: 20px;
+    }
+  
+    .move-right,
+    .move-right2,
+    .move-right3 {
+      margin-right: 0;
+    }
+  }
+
+
