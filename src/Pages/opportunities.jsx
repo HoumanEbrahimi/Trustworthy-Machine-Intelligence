@@ -21,8 +21,8 @@ const Opp = () =>{
 
                 <h1 className="postcard__title " style={{color:"orange"}}>Professor Ishtiaque Ahmed</h1>
                 <br/><br/>
-                <img className="postcard__img" src="https://ethical-principles-in-ai.github.io/static/media/Ahmed.6924f4eefc282339ab35.jpg" alt="blank" style={{height:"380px"}}/>	
-
+                <img className="postcard_title" src="https://ethical-principles-in-ai.github.io/static/media/Ahmed.6924f4eefc282339ab35.jpg" alt="blank" style={{width:"250px",height:"250px"}}/>
+                
                 <div className="postcard__preview-txt">Syed Ishtiaque Ahmed is an Assistant Professor of Computer Science at the University of Toronto, and the Director of the ‘Third Space'' research group. 
                 He is also a graduate faculty member of the School of Environment, a Faculty Fellow at the Schwartz Reisman Institute for Technology and Society, and a Senior Fellow at Massey College. 
                 He co-organizes the monthly Critical Computing Seminar at UofT, and co-steer UofT's SDG initiative. Ishtiaque’s research focuses on the design challenges around strengthening the ‘voices’ or 
@@ -42,22 +42,22 @@ const Opp = () =>{
             <hr style={{color:"black"}} size="70"/>
             <div className="card-container3">
 
-            <div class="card" style={{width: "45rem", height:"40rem",backgroundColor:"#18151f"}}>
-                <img class="card-img-top" src="https://ethical-principles-in-ai.github.io/static/media/resource_inter.9082b393e327fe1288b8.PNG" alt="placeholder" style={{width:"717.6px",height:"403.63px"}}/>
+            <div class="card" style={{width: "45rem", height:"40rem",backgroundColor:"white"}}>
+                <img class="postcard__img" src="https://ethical-principles-in-ai.github.io/static/media/resource_inter.9082b393e327fe1288b8.PNG" alt="placeholder" style={{width:"717.6px",height:"403.63px"}}/>
                 <div class="card-body">
                 <br></br>
 
-                    <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"white"}}>Intermediate Level</h5>
+                    <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"black"}}>Intermediate Level</h5>
                     <br/><br/><br/>
                      <a href="" class="btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}} >Unsolved Problems in ML Safety</a>
                  </div>
                  
             </div>
-            <div class="card" style={{width: "45rem", height:"40rem",backgroundColor:"#18151f"}}>
-                <img class="card-img-top" src="https://github.com/HoumanEbrahimi/Lol/blob/main/resource_intro.cc528743c8ff2758bb5b.png?raw=true" alt="placeholder" style={{width:"717.6px",height:"403.63px"}}/>
+            <div class="card" style={{width: "45rem", height:"40rem",backgroundColor:"white"}}>
+                <img class="postcard__img" src="https://github.com/HoumanEbrahimi/Lol/blob/main/resource_intro.cc528743c8ff2758bb5b.png?raw=true" alt="placeholder" style={{width:"717.6px",height:"403.63px"}}/>
                 <div class="card-body">
                     <br></br>
-                    <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"white"}}>Introductory Level</h5>
+                    <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"black"}}>Introductory Level</h5>
                     <br/><br/><br/>
                      <a href="" class="btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>The Case for Taking AI Seriously as a Threat to Humanity</a>
                  </div>
@@ -77,13 +77,13 @@ const Opp = () =>{
             </div>
 
             <div class="container py-3">
-                <div class="card" style={{backgroundColor:"#18151f"}}>
+                <div class="card" style={{backgroundColor:"white"}}>
 
                     <div class=" px-2">
                         <div class="card-block px-6">
-                            <h4 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"white"}}>Schwartz Reisman Institute</h4>
+                            <h4 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"black"}}>Schwartz Reisman Institute</h4>
                             <br/>
-                            <p class="card-text" style={{fontFamily:"Times New Roman",fontSize:"20px",color:"white"}}>
+                            <p class="card-text" style={{fontFamily:"Times New Roman",fontSize:"20px",color:"black"}}>
                                     The Schwartz Reisman Institute shares a range of events, news, and, videos 
                                     regarding safe, responsible, and inclusive technologies. View their seminar
                                      series, research, and members.
@@ -94,13 +94,13 @@ const Opp = () =>{
                         </div>
                     </div>
                 </div>
-                <div class="card" style={{backgroundColor:"#18151f"}}>
+                <div class="card" style={{backgroundColor:"white"}}>
 
                     <div class=" px-2">
                         <div class="card-block px-6">
-                            <h4 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"white"}}>Center for Human-Compatible AI</h4>
+                            <h4 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"black"}}>Center for Human-Compatible AI</h4>
                             <br/>
-                            <p class="card-text" style={{fontFamily:"Times New Roman",fontSize:"20px",color:"white"}}>
+                            <p class="card-text" style={{fontFamily:"Times New Roman",fontSize:"20px",color:"black"}}>
                             CHAI's mission is to reorient the direction AI is progressing in so that 
                             it can become more beneficial to systems. To learn more about ethics and 
                             AI CHAI has composed an Annotated Bibliography of Recommended Materials.
@@ -138,3 +138,5 @@ const Opp = () =>{
 }
 
 export default Opp;
+
+//#18151f

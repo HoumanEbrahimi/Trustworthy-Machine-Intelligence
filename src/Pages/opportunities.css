@@ -1,111 +1,16 @@
 .small-container{
-    color: black !important;
+  color: black !important;
 
 }
 
 .background-unique{
-  background-color: antiquewhite;
+background-color: antiquewhite;
 }
 
 
 .font1{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 50px; 
-    align-items: center;
-    text-align: center;
-    font-style: normal;
-    padding:30px;
-    margin-bottom: -20px;
-    
-}
-
-.font2{
-    color:white;
-    font-family: "Inika", Times, serif;
-    font-size: 40px; 
-    align-items: center;
-    font-style: normal;
-    font-weight: normal;
-    text-align: left;
-    margin-bottom: 30px;
-    padding:30px;
-}
-
-.font3{
-    color:black !important;
-    font-family: "Inika", Times, serif;
-    font-size: 60px; 
-    align-items: center;
-    text-align: center;
-    font-style: normal;
-    padding:30px;
-}
-
-.btn{
-    margin-top: 60px;
-    font-size: 20px;
-    width:445px;
-}
-.card-container3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1600px; /* Adjust the maximum width as needed */
-  padding: 20px;
-}
-
-
-.card-block {
-    font-size: 1em;
-    position: relative;
-    margin: 0;
-    padding: 1em;
-    border: none;
-    border-top: 1px solid rgba(34, 36, 38, .1);
-    box-shadow: none;
-    text-align: left;
-     
-}
-
-
-  .background {
-    display: flex;
-    align-items: center;
-    min-height: calc(100vh - 80px); /* Subtract the footer's height */
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 10px;
-    position: relative; /* Add this positioning property */
-
-  }
-
-.text-contain{
-
-    border-radius: 20px;
-    max-width: 1000px;
-    margin: auto ;
-
-}
-
-hr {
-    width:70%;
-    margin:0 auto;
-}
-
-
-/* This pen */
-body {
-	font-family: "Inika ", cursive;
-	font-size: 16px;
-	color: #ffffff;
-	font-weight: initial;
-}
-
-.font-main{
-  color:white;
-  font-family: "Inika", Times, serif;
-  font-size: 60px; 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px; 
   align-items: center;
   text-align: center;
   font-style: normal;
@@ -114,181 +19,292 @@ body {
   
 }
 
+.font2{
+  color:white;
+  font-family: "Inika", Times, serif;
+  font-size: 40px; 
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 30px;
+  padding:30px;
+}
+
+.font3{
+  color:black !important;
+  font-family: "Inika", Times, serif;
+  font-size: 60px; 
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  padding:30px;
+}
+
+.btn{
+  margin-top: 60px;
+  font-size: 20px;
+  width:445px;
+}
+.card-container3 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 0 auto;
+max-width: 1600px; /* Adjust the maximum width as needed */
+padding: 20px;
+background-color: white;
+}
+
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
+  text-align: left;
+   
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* Subtract the footer's height */
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  position: relative; /* Add this positioning property */
+
+}
+
+.text-contain{
+
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: auto ;
+
+}
+
+hr {
+  width:70%;
+  margin:0 auto;
+}
+
+
+/* This pen */
+body {
+font-family: "Inika ", cursive;
+font-size: 16px;
+color: #ffffff;
+font-weight: initial;
+}
+
+.font-main{
+color:white;
+font-family: "Inika", Times, serif;
+font-size: 60px; 
+align-items: center;
+text-align: center;
+font-style: normal;
+padding:30px;
+margin-bottom: -20px;
+
+}
+
 .dark2 {
-	background: dark;
+background: dark;
 }
 
 .container {
-  max-width: 1500px; /* Adjust the maximum width as needed */
-  /* Other existing styles */
+max-width: 1500px; /* Adjust the maximum width as needed */
+/* Other existing styles */
 }
 
 .postcard2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
-  border-radius: 10px;
-  margin: 0 0 2rem 0;
-  overflow: hidden;
-  position: relative;
-  color: #ffffff;
-  background-color: #18151f; /* Background color for dark mode */
-  padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+border-radius: 10px;
+margin: 0 0 2rem 0;
+overflow: hidden;
+position: relative;
+color: #ffffff;
+background-color: #18151f; /* Background color for dark mode */
+padding: 20px;
 }
 
 .row{
-  align-items: center;
-  padding: 30px;
-  margin-left: 34rem;
+align-items: center;
+padding: 30px;
+margin-left: 34rem;
 }
 
 .postcard__preview-txt {
-  color:white;
-  font-family: "Times New Roman", Times, serif;
-  padding-top: 1em;
-  font-size:24px;
-  font-weight: normal;
-  padding: 40px; /* Add padding to the text */
+color:white;
+font-family: "Times New Roman", Times, serif;
+padding-top: 1em;
+font-size:24px;
+font-weight: normal;
+padding: 40px; /* Add padding to the text */
 
 }
 
 a, a:hover {
-	text-decoration: none;
-	transition: color 0.3s ease-in-out;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
 }
 
 
 .postcard__title {
-  margin-top: 1em;
-  font-size: 2.5rem;
-  font-family: "Inika";
+margin-top: 1em;
+font-size: 2.5rem;
+font-family: "Inika";
 }
 
 .postcard__img {
-  max-height: 300px;
-  position: relative;
-  object-fit: cover;
-  margin-bottom: 10px; /* Add some space between image and text */
+max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+max-height: 300px;
+position: relative;
+object-fit: cover;
+margin-bottom: 10px; /* Add some space between image and text */
+display: flex;
 }
+
+.btn-primary {
+display: block;
+margin: 0 auto; /* Center the button */
+margin-top: 10px; /* Add space between text and button */
+}
+
+/* Cards */
+.postcard2 {
+flex-wrap: wrap;
+display: flex; 
+border-radius: 10px;
+margin: 0 0 2rem 0;
+overflow: hidden;
+position: relative;
+color: #ffffff;
+
+&.dark {
+  background-color: #18151f;
+}
+&.light {
+  background-color: #e1e5ea;
+}
+
+
+h1,	.h1 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.postcard__title {
+  font-size: 1.75rem;
+}
+
+
+.postcard__img {
+  max-height: 150px;
+  width: 90%;
+  position: relative;
+}
+
+.postcard_title{
+  max-height:450px;
+  width: 90%;
+  position: relative;
+  align-items: center;
+}
+
+.postcard__img_link {
+  display: contents;
+}
+
 
 .btn-primary {
   display: block;
   margin: 0 auto; /* Center the button */
   margin-top: 10px; /* Add space between text and button */
 }
-
-/* Cards */
-.postcard2 {
-  flex-wrap: wrap;
-  display: flex;
-  
-  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
-  border-radius: 10px;
-  margin: 0 0 2rem 0;
-  overflow: hidden;
-  position: relative;
-  color: #ffffff;
-
-	&.dark {
-		background-color: #18151f;
-	}
-	&.light {
-		background-color: #e1e5ea;
-	}
-	
-
-	h1,	.h1 {
-		margin-bottom: 0.5rem;
-		font-weight: 500;
-		line-height: 1.2;
-	}
-	
-  .postcard__title {
-    font-size: 1.75rem;
-  }
-
-
-  .postcard__img {
-    max-height: 150px;
-    width: 90%;
-    position: relative;
-  }
-
-  .postcard__img_link {
-    display: contents;
-  }
-
-
-  .btn-primary {
-    display: block;
-    margin: 0 auto; /* Center the button */
-    margin-top: 10px; /* Add space between text and button */
-  }
 }
 
 
 
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+background-color: #0056b3;
+border-color: #0056b3;
 
 }
 /* Center the image cards in the row */
 .row.justify-content-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; /* Adjust margin as needed */
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px; /* Adjust margin as needed */
 }
 
 /* Apply styles to the image cards */
 .image-card {
-  text-align: center;
-  margin: 0 20px; /* Adjust margin as needed */
+text-align: center;
+margin: 0 20px; /* Adjust margin as needed */
 }
 
 /* Apply styles to the images */
 .image-card img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 10px; /* Adjust margin as needed */
+max-width: 100%;
+height: auto;
+display: block;
+margin-bottom: 10px; /* Adjust margin as needed */
 }
 
 /* Apply styles to the image text */
 .image-text {
-  color: #333;
-  font-size: 14px;
+color: #333;
+font-size: 14px;
 }
 .row img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px; /* Adjust margin as needed */
+max-width: 100%;
+height: auto;
+display: block;
+margin: 10px; /* Adjust margin as needed */
 }
 
 .btn{
-    font-size: 20px;
-    width:500px;
+  font-size: 20px;
+  width:500px;
 }
 
 .button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
 }
 
 /* Style for each button row */
 .button-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px; /* Adjust margin as needed */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
-.new-btn{
-  margin-left: 40px;
+.new-btn {
+flex: 1; /* Let the buttons grow equally within the container */
+margin: 5px; /* Add some space between buttons */
+max-width: 300px; /* Set a maximum width for each button */
+}
+
+@media screen and (max-width: 600px) {
+/* Adjust styles for screens with a maximum width of 600px or less */
+.new-btn {
+  flex-basis: 100%; /* Set each button to take 100% of the container's width */
+}
 }
