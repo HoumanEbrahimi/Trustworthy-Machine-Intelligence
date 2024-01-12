@@ -7,59 +7,36 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-<footer class="footer-distributed">
+    <footer className="footer">
+      <div className="alignment"> 
+      <h1 className="footer-align" style={{fontFamily:"Tahoma",fontSize:"30px"}}>Contact Us</h1>
+      <div className="footer-content">
+        <a href="https://www.instagram.com/uoft_epai/" >
+          <FontAwesomeIcon className="icons-change" icon={faInstagram} size="3x" transform="left-36" target="_blank"
+color='orange'/>
+        </a>
+        &nbsp;&nbsp; &nbsp;&nbsp; 
 
-<div class="footer-left">
+        <a href="https://discord.com/channels/1110690752658415668/1110694536579121273" target="_blank"
+>
+          <FontAwesomeIcon className="icons-change" icon={faDiscord} size="3x" transform="left-26" color='orange'/>
+        </a>
+        &nbsp;&nbsp; &nbsp;&nbsp; 
+        <a href="https://discord.com/channels/1110690752658415668/1110694536579121273" >
+          <FontAwesomeIcon className="icons-change" icon={faEnvelope} size="3x" transform="left-16" color='orange'  target="_blank"
+/>
+        </a>
 
-  <h3>      <img
+      </div>
+      <img
             src="https://media.discordapp.net/attachments/1110694536579121273/1138870000296394783/TMI.png?width=574&height=574"
             alt=""
-            width="100"
-            height="100"
-          /></h3>
+            width="65"
+            height="65"
+          />
+      </div>
 
-  <p class="footer-links">
-    <a href="/" class="link-1">Home</a>
-    
-    
-    <a href="/team">Team</a>
-    
-    
-    <a href="/contact">Contact</a>
-  </p>
-
-</div>
-
-<div class="footer-center">
-
-<div class="footer-icons">
-    <strong> Join our mailing list</strong>
-
-</div>
-  <div>
-  <FontAwesomeIcon icon={faEnvelope} size="2x" transform="left-15 down-5" color='orange' />
-          <p><a style={{marginRight:"30px", marginBottom:"30px"}} href="utoronto.tmi@gmail.com">utoronto.tmi@gmail.com</a></p>
-        </div>
-
-
-</div>
-
-<div class="footer-right">
-
-
-  <div class="footer-icons">
-    <p> Join our team</p>
-    <a href="#">  <FontAwesomeIcon icon={faDiscord} size="2x" transform="left-10 down-3 right-8" color='orange'/>
-</a>
-    <a href="#">  <FontAwesomeIcon icon={faInstagram} size="2x" transform="left-10 down-3 right-13" color='orange'/>
-</a>
-
-
-  </div>
-
-</div>
-
-</footer>
+    </footer>
   );
 };
 
