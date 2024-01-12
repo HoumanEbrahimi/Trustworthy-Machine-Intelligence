@@ -4,9 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 import './App.css';
-import "./components/Navbar.css";
+//import "./components/Navbar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom';
+import "bootstrap/js/src/collapse.js";
+
+
 
 
 import Main from './Pages/mainPage.jsx';
@@ -24,15 +27,15 @@ function App() {
     <div className="App"> 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 &nbsp;&nbsp;
-  <img
+  <a class="nav-link" href="/">   <img
+    
     src="https://media.discordapp.net/attachments/1110694536579121273/1138870000296394783/TMI.png?width=574&height=574"
     alt=""
     width="65"
     height="65"
-  />
-    &nbsp;&nbsp;
-  UofT TMI
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  /></a>
+
+  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
