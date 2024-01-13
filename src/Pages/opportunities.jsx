@@ -49,7 +49,7 @@ const Opp = () =>{
 
                     <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"black"}}>Intermediate Level</h5>
                     <br/><br/><br/>
-                     <a href="" class="btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}} >Unsolved Problems in ML Safety</a>
+                     <a href="https://www.vox.com/future-perfect/2018/12/21/18126576/ai-artificial-intelligence-machine-learning-safety-alignment" class="btn btn-primary"  target="_blank" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}} >Unsolved Problems in ML Safety</a>
                  </div>
                  
             </div>
@@ -59,7 +59,7 @@ const Opp = () =>{
                     <br></br>
                     <h5 class="card-title" style={{fontFamily:"Times New Roman",fontSize:"30px",color:"black"}}>Introductory Level</h5>
                     <br/><br/><br/>
-                     <a href="" class="btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>The Case for Taking AI Seriously as a Threat to Humanity</a>
+                     <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1903.03862.pdf" target="_blank" class="btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>The Case for Taking AI Seriously as a Threat to Humanity</a>
                  </div>
                  
             </div>
@@ -107,7 +107,7 @@ const Opp = () =>{
                              </p>
 
     
-                            <a href="#" class="mt-auto btn btn-primary" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>Learn More</a>
+                            <a href="https://humancompatible.ai/" class="mt-auto btn btn-primary" target="_blank" style={{backgroundColor:"rgb(37,150,190)",fontFamily:"Times New Roman"}}>Learn More</a>
                         </div>
                     </div>
                 </div>

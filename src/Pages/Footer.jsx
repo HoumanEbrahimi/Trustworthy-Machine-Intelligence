@@ -12,18 +12,18 @@ const Footer = () => {
       <h1 className="footer-align" style={{fontFamily:"Tahoma",fontSize:"30px"}}>Contact Us</h1>
       <div className="footer-content">
         <a href="https://www.instagram.com/uoft_epai/" >
-          <FontAwesomeIcon className="icons-change" icon={faInstagram} size="3x" transform="left-36" target="_blank"
+          <FontAwesomeIcon className="icons-change" icon={faInstagram} size="3x" transform="left-24" target="_blank"
 color='orange'/>
         </a>
         &nbsp;&nbsp; &nbsp;&nbsp; 
 
         <a href="https://discord.com/channels/1110690752658415668/1110694536579121273" target="_blank"
 >
-          <FontAwesomeIcon className="icons-change" icon={faDiscord} size="3x" transform="left-26" color='orange'/>
+          <FontAwesomeIcon className="icons-change" icon={faDiscord} size="3x" transform="left-14" color='orange'/>
         </a>
         &nbsp;&nbsp; &nbsp;&nbsp; 
         <a href="https://discord.com/channels/1110690752658415668/1110694536579121273" >
-          <FontAwesomeIcon className="icons-change" icon={faEnvelope} size="3x" transform="left-16" color='orange'  target="_blank"
+          <FontAwesomeIcon className="icons-change" icon={faEnvelope} size="3x" transform="left-4" color='orange'  target="_blank"
 />
         </a>
 

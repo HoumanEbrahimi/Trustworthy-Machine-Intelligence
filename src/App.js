@@ -23,7 +23,8 @@ function App() {
     <div className="App"> 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 &nbsp;&nbsp;
-  <a class="navbar-brand" href="/">   
+
+  <a class="navbar-item" href="/">   
   <img
     src="https://media.discordapp.net/attachments/1110694536579121273/1138870000296394783/TMI.png?width=574&height=574"
     alt=""
